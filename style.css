@@ -4,6 +4,23 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    color: red;
+  }
+}
+
 body {
   margin-top: 100px;
 }
